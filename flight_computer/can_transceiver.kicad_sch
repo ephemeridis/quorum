@@ -1081,27 +1081,49 @@
 		)
 		(uuid "e8c86ddf-8791-4ca0-9ec3-ce26b4306739")
 	)
-	(text "ESD Protection\n"
+	(text_box "Optional Termination"
 		(exclude_from_sim no)
-		(at 194.818 145.288 0)
+		(at 142.24 83.82 0)
+		(size 29.21 63.5)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 194 1)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 0 194 1)
 			)
+			(justify right bottom)
 		)
-		(uuid "77b223bd-7d4b-4c92-a163-cd0e52fcda87")
+		(uuid "2e29fa39-97fc-40df-ba40-0d9565a4d3ce")
 	)
-	(text "Optional Termination"
+	(text_box "ESD Protection\n"
 		(exclude_from_sim no)
-		(at 160.274 145.288 0)
+		(at 173.99 83.82 0)
+		(size 29.21 63.5)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 194 1)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 0 194 1)
 			)
+			(justify right bottom)
 		)
-		(uuid "f5a9f8b1-032f-482d-8ec3-95c3d50bf3dc")
+		(uuid "345c5daa-7246-4054-ac29-fa73653987e9")
 	)
 	(junction
 		(at 185.42 92.71)
@@ -1818,7 +1840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79897c08-49dc-4219-8660-df3c3995b5f3")
-		(property "Reference" "C"
+		(property "Reference" "C5"
 			(at 121.92 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,6 +1905,10 @@
 					(reference "C5")
 					(unit 1)
 				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
+					(reference "C5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1898,7 +1924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8797a53e-ee61-425a-aeaf-701da617eef5")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR07"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1961,6 +1987,10 @@
 					(reference "#PWR07")
 					(unit 1)
 				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
+					(reference "#PWR07")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1976,7 +2006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b242f065-2276-4ffb-bdb9-9c34ca5ce6ad")
-		(property "Reference" "R"
+		(property "Reference" "R7"
 			(at 153.67 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2040,6 +2070,10 @@
 		(instances
 			(project "flight_computer"
 				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/5251f0f1-b4ab-42e5-abc1-cd87dd350edb"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
 					(reference "R7")
 					(unit 1)
 				)
@@ -2309,7 +2343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c919af7a-cd26-4103-a85f-870aee9472ff")
-		(property "Reference" "JP"
+		(property "Reference" "JP4"
 			(at 153.67 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,6 +2411,10 @@
 					(reference "JP4")
 					(unit 1)
 				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
+					(reference "JP4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2392,7 +2430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cde1a437-6694-4ce0-abe9-d8eb88979c8a")
-		(property "Reference" "C"
+		(property "Reference" "C6"
 			(at 160.02 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,6 +2497,10 @@
 					(reference "C6")
 					(unit 1)
 				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
+					(reference "C6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2474,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e24ab0b2-2d11-4d40-95f9-1ccda05e9556")
-		(property "Reference" "U"
+		(property "Reference" "U4"
 			(at 116.4433 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,6 +2612,10 @@
 					(reference "U4")
 					(unit 1)
 				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
+					(reference "U4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2585,7 +2631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f440a2d6-7c9e-4d47-8ddc-468763854c7f")
-		(property "Reference" "R"
+		(property "Reference" "R6"
 			(at 95.25 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2652,6 +2698,10 @@
 					(reference "R6")
 					(unit 1)
 				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
+					(reference "R6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2667,7 +2717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc12b41a-38ec-4c4a-a8c7-70140dc3952e")
-		(property "Reference" "D"
+		(property "Reference" "D3"
 			(at 189.23 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,6 +2793,10 @@
 		(instances
 			(project "flight_computer"
 				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/5251f0f1-b4ab-42e5-abc1-cd87dd350edb"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c/adc3643f-6d6d-4902-b902-785309a5e75b"
 					(reference "D3")
 					(unit 1)
 				)

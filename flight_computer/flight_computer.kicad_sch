@@ -2136,6 +2136,142 @@
 		)
 	)
 	(sheet
+		(at 33.02 62.23)
+		(size 35.56 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3e9f3e2d-2cbf-48db-89d4-d7558813bdaf")
+		(property "Sheetname" "interconnect"
+			(at 33.02 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interconnect.kicad_sch"
+			(at 33.02 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN1_H" bidirectional
+			(at 68.58 74.93 0)
+			(uuid "c84e615d-8d79-4413-b777-a643933f49d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1_L" bidirectional
+			(at 68.58 77.47 0)
+			(uuid "c7c0c921-cca6-4732-8fe3-5015d85783db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2_H" bidirectional
+			(at 68.58 82.55 0)
+			(uuid "d329064d-079e-4d75-a545-94ffcab4a7d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2_L" bidirectional
+			(at 68.58 85.09 0)
+			(uuid "3a3e7f4a-3a72-4631-8e4b-871fff565031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS1_PPS" output
+			(at 68.58 90.17 0)
+			(uuid "d3b4b4d1-40f8-4f88-b33f-af613f82b724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS1_TX" output
+			(at 68.58 92.71 0)
+			(uuid "e1783023-deed-492f-b9ad-b07ca275826a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS2_PPS" output
+			(at 68.58 97.79 0)
+			(uuid "19f8a10d-5437-46f4-8d4f-d9d764b73892")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS2_TX" output
+			(at 68.58 100.33 0)
+			(uuid "c072fecd-bed0-40ab-8f92-6b1f5a6a3d43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" output
+			(at 68.58 67.31 0)
+			(uuid "91c7d650-0b6c-45a8-a9a7-282058ad9e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "flight_computer"
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 201.93 116.84)
 		(size 35.56 24.13)
 		(exclude_from_sim no)
