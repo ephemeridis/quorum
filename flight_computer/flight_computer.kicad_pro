@@ -416,7 +416,7 @@
         "uuid": "4b3676e8-35c3-4ec2-859c-99a6df767b3c"
       }
     ],
-    "used_designators": "J1-3,#PWR1-15,D1-4,C1-6,JP1-5,R1-12,F1-2,U1-4",
+    "used_designators": "J1-3,#PWR1-18,D1-4,C1-6,JP1-5,R1-14,Y1,F1-2,U1-4",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,10 @@
     [
       "3e9f3e2d-2cbf-48db-89d4-d7558813bdaf",
       "interconnect"
+    ],
+    [
+      "94cd2c21-1e9b-4adb-b6b8-a528cc0ed9a6",
+      "mcu"
     ]
   ],
   "text_variables": {},
