@@ -142,7 +142,7 @@
 		)
 	)
 	(sheet
-		(at 201.93 116.84)
+		(at 83.82 146.05)
 		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -158,7 +158,7 @@
 		)
 		(uuid "5251f0f1-b4ab-42e5-abc1-cd87dd350edb")
 		(property "Sheetname" "can_transceiver2"
-			(at 201.93 116.1284 0)
+			(at 83.82 145.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -169,7 +169,7 @@
 			)
 		)
 		(property "Sheetfile" "can_transceiver.kicad_sch"
-			(at 201.93 141.5546 0)
+			(at 83.82 170.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -180,73 +180,73 @@
 			)
 		)
 		(pin "CAN_RX" input
-			(at 201.93 128.27 180)
+			(at 119.38 157.48 0)
 			(uuid "7945898b-cce6-4c73-b381-5fcebc9fcdd8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CAN_H" input
-			(at 237.49 124.46 0)
+			(at 83.82 153.67 180)
 			(uuid "bbbbc7f3-b783-47ac-bc89-791c8bb091ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN_L" input
-			(at 237.49 127 0)
+			(at 83.82 156.21 180)
 			(uuid "f48a5e5b-ab15-4ab5-b5c5-d8b3f61fba8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN_STB" input
-			(at 201.93 133.35 180)
+			(at 119.38 162.56 0)
 			(uuid "d016b7ac-71f4-4deb-a452-c205ac7d9091")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CAN_TX" input
-			(at 201.93 130.81 180)
+			(at 119.38 160.02 0)
 			(uuid "3edc3210-0f95-4621-ad2b-8e4aea4f2337")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 201.93 120.65 180)
+			(at 119.38 149.86 0)
 			(uuid "7587d639-5321-44c8-b2ea-7523a36391e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VIO" input
-			(at 201.93 123.19 180)
+			(at 119.38 152.4 0)
 			(uuid "bdf0b190-6620-465e-9100-ad5b9531ad85")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -258,8 +258,8 @@
 		)
 	)
 	(sheet
-		(at 78.74 62.23)
-		(size 35.56 46.99)
+		(at 134.62 62.23)
+		(size 35.56 78.74)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -274,7 +274,7 @@
 		)
 		(uuid "94cd2c21-1e9b-4adb-b6b8-a528cc0ed9a6")
 		(property "Sheetname" "mcu"
-			(at 78.74 61.5184 0)
+			(at 134.62 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -285,7 +285,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 78.74 109.8046 0)
+			(at 134.62 141.5546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -293,6 +293,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FDCAN1_RX" input
+			(at 134.62 116.84 180)
+			(uuid "8812e5a4-cefc-4a3d-902e-241e27dcacd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN1_TX" input
+			(at 134.62 119.38 180)
+			(uuid "0e3fba5a-c6c4-4600-b69b-6b7220273f84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS1_PPS" input
+			(at 134.62 90.17 180)
+			(uuid "2d3fae54-436f-4a7b-8a97-5c02dffeda64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS1_RX" input
+			(at 134.62 92.71 180)
+			(uuid "cff4ef73-6cbb-4609-8d8b-2a565d9a4b60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS2_PPS" input
+			(at 134.62 97.79 180)
+			(uuid "ccb9f69f-0cf2-47be-8b40-d0ae64b517b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS2_RX" input
+			(at 134.62 100.33 180)
+			(uuid "3a9488f5-1b5c-4e79-b54a-0ce9c0fd936d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 170.18 90.17 0)
+			(uuid "26c2d3a8-01cc-4749-a63e-ddbd8fc8ac23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 170.18 92.71 0)
+			(uuid "5f4764f8-4b6e-40e4-bc7c-783334be1ff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 170.18 95.25 0)
+			(uuid "611d6cf7-db00-4b1a-a5a7-c46425273db1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD3V3" input
+			(at 134.62 67.31 180)
+			(uuid "1224c7af-f5f0-44a9-9880-fdf085b94cfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN2_RX" input
+			(at 134.62 124.46 180)
+			(uuid "f5e202a2-47b6-4c1a-9ec2-9815803f5536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN2_TX" input
+			(at 134.62 127 180)
+			(uuid "d39cb5a9-704d-48c1-8974-e06946d8311b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -304,7 +424,7 @@
 		)
 	)
 	(sheet
-		(at 201.93 83.82)
+		(at 83.82 113.03)
 		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -320,7 +440,7 @@
 		)
 		(uuid "adc3643f-6d6d-4902-b902-785309a5e75b")
 		(property "Sheetname" "can_transceiver1"
-			(at 201.93 83.1084 0)
+			(at 83.82 112.3184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -331,7 +451,7 @@
 			)
 		)
 		(property "Sheetfile" "can_transceiver.kicad_sch"
-			(at 201.93 108.5346 0)
+			(at 83.82 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -342,73 +462,73 @@
 			)
 		)
 		(pin "CAN_RX" input
-			(at 201.93 95.25 180)
+			(at 119.38 124.46 0)
 			(uuid "8a20b5ef-33f9-4f8a-9182-cebdca6d2d4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CAN_H" input
-			(at 237.49 91.44 0)
+			(at 83.82 120.65 180)
 			(uuid "b9b245e1-1cee-4d49-9026-4133f644cf47")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN_L" input
-			(at 237.49 93.98 0)
+			(at 83.82 123.19 180)
 			(uuid "40735e13-f700-44ce-8826-9f7a0be90383")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN_STB" input
-			(at 201.93 100.33 180)
+			(at 119.38 129.54 0)
 			(uuid "dbd6310f-59df-49ef-b9fe-3ce5f3981a74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CAN_TX" input
-			(at 201.93 97.79 180)
+			(at 119.38 127 0)
 			(uuid "13907692-515d-4698-8b57-b64eb252598e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 201.93 87.63 180)
+			(at 119.38 116.84 0)
 			(uuid "038d1b0b-4148-4cdc-8643-408fa7afe7cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VIO" input
-			(at 201.93 90.17 180)
+			(at 119.38 119.38 0)
 			(uuid "b15fd068-8338-4f3e-8407-1ff553b54301")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances

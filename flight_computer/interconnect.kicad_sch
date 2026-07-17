@@ -4441,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4k7"
 			(at 226.06 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,7 +4986,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 54.61 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4k7"
 			(at 226.06 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4k7"
 			(at 226.06 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 54.61 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6489,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4k7"
 			(at 226.06 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
