@@ -539,6 +539,82 @@
 			)
 		)
 	)
+	(sheet
+		(at 83.82 82.55)
+		(size 35.56 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "df37cd0a-ed6c-478e-b2be-bbfe524ca9ab")
+		(property "Sheetname" "power"
+			(at 83.82 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 83.82 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_LDO" output
+			(at 119.38 91.44 0)
+			(uuid "e3670dad-e27f-4a60-95f0-74b2b3694b74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 83.82 86.36 180)
+			(uuid "af8abed1-23dd-4678-a412-f28eea7d006d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD3V3" output
+			(at 119.38 86.36 0)
+			(uuid "55ba24df-28b9-429f-bc3f-f2433a36134c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "flight_computer"
+				(path "/4b3676e8-35c3-4ec2-859c-99a6df767b3c"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

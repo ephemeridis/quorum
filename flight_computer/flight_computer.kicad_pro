@@ -366,12 +366,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -416,7 +434,7 @@
         "uuid": "4b3676e8-35c3-4ec2-859c-99a6df767b3c"
       }
     ],
-    "used_designators": "J1-4,FB1,#PWR1-27,#PWR31,#PWR50,#PWR55,#PWR59,D1-4,D7,C1-17,C24,JP1-5,R1-19,TP1,Y1,F1-2,U1-5,U7",
+    "used_designators": "L1,J1-4,U1-8,C1-29,FB1,Y1,#PWR1-34,#PWR50,#PWR55,#PWR59,D1-4,D7,JP1-5,R1-24,TP1,F1-2",
     "variants": []
   },
   "sheets": [
@@ -439,6 +457,10 @@
     [
       "94cd2c21-1e9b-4adb-b6b8-a528cc0ed9a6",
       "mcu"
+    ],
+    [
+      "df37cd0a-ed6c-478e-b2be-bbfe524ca9ab",
+      "power"
     ]
   ],
   "text_variables": {},
