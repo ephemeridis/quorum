@@ -253,7 +253,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "avionics_d"
+    ]
   },
   "meta": {
     "filename": "flight_computer.kicad_pro",
