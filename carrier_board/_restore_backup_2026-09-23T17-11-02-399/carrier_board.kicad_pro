@@ -649,7 +649,7 @@
         "uuid": "5e0a7709-9ed7-4200-981f-37c87e5078d7"
       }
     ],
-    "used_designators": "#PWR18-20,R13-15,C31-33",
+    "used_designators": "U3-5,J1-2,C3-26,#PWR2-15,D1-2,L1-3,R4-12",
     "variants": []
   },
   "sheets": [
@@ -672,10 +672,6 @@
     [
       "18f44b82-9a56-4ccf-b74b-0fc525a714b4",
       "5v_buck2"
-    ],
-    [
-      "ebdf99e9-dab8-4798-a1fc-6c1b8732910d",
-      "Untitled Sheet"
     ]
   ],
   "text_variables": {},

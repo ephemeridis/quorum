@@ -3687,29 +3687,9 @@
 				(justify left top)
 			)
 		)
-		(pin "VDD1_5V" input
-			(at 134.62 132.08 0)
-			(uuid "1426cdce-e9d2-4621-9422-396bd2cd75c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD2_5V" input
-			(at 134.62 134.62 0)
-			(uuid "7c9b1a9b-6b1b-4d76-80e8-e942b3511726")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_RF" input
-			(at 134.62 129.54 0)
-			(uuid "ccfeb8b7-32e2-43ed-840e-22e58857e9b4")
+		(pin "VOUT_5V" output
+			(at 134.62 128.27 0)
+			(uuid "6c425c69-b2c4-4343-ae3c-14fa471a177b")
 			(effects
 				(font
 					(size 1.27 1.27)
